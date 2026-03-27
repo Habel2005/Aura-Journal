@@ -68,6 +68,11 @@
   font-family: 'Syne', sans-serif;
 }
 
+@keyframes scrollLine {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}
+
 @keyframes fade-in-up {
   from {
     opacity: 0;
