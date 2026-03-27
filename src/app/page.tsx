@@ -2,6 +2,7 @@
 import InteractiveHero from '@/components/InteractiveHero';
 import Navigation from '@/components/Navigation';
 import FeatureShowcase from '@/components/ProjectGrid';
+import Philosophy from '@/components/Philosophy';
 import Footer from '@/components/Footer';
 import { Star, Zap, Shield, Sparkles } from 'lucide-react';
 
@@ -13,23 +14,8 @@ export default function Home() {
       {/* Hero Section */}
       <InteractiveHero />
 
-      {/* Intro Section with Refined Typography */}
-      <section className="py-40 px-6 md:px-12 bg-background relative overflow-hidden">
-        <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50" />
-        
-        <div className="container mx-auto relative z-10">
-          <div className="max-w-5xl">
-            <p className="text-xs uppercase tracking-[0.4em] text-accent font-bold mb-12 flex items-center gap-4">
-              <span className="w-12 h-px bg-accent" />
-              The Philosophy
-            </p>
-            <h2 className="font-headline text-5xl md:text-8xl uppercase tracking-tighter leading-[1.05]">
-              Your thoughts <span className="italic text-accent">deserve</span> a sanctuary. 
-              <span className="opacity-20 ml-4">Aura is designed for the modern mindful explorer.</span>
-            </h2>
-          </div>
-        </div>
-      </section>
+      {/* Intro Section with Scroll Shading - Extracted for performance and animation */}
+      <Philosophy />
 
       {/* Featured Features (renamed ProjectGrid) */}
       <FeatureShowcase />
