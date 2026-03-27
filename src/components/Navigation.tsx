@@ -23,12 +23,13 @@ export default function Navigation() {
       "fixed top-0 left-0 w-full z-50 transition-all duration-500 py-6 px-6 md:px-12 flex justify-between items-center",
       isScrolled ? "bg-background/80 backdrop-blur-md py-4 border-b border-border/50" : "bg-transparent"
     )}>
-      <Link href="/" className="font-headline text-2xl tracking-tighter uppercase font-bold">
-        Catalyst<span className="text-accent">.</span>
+      <Link href="/" className="font-headline text-2xl tracking-tighter uppercase font-bold flex items-center gap-2">
+        <div className="w-8 h-8 rounded-full bg-accent animate-pulse" />
+        Aura<span className="text-accent">.</span>
       </Link>
 
       <div className="hidden md:flex space-x-12">
-        {['Projects', 'Services', 'Studio', 'Contact'].map((item) => (
+        {['Journal', 'Features', 'Community', 'Pricing'].map((item) => (
           <Link 
             key={item} 
             href={`#${item.toLowerCase()}`} 
@@ -47,16 +48,15 @@ export default function Navigation() {
         {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
-      {/* Fullscreen Mobile/Overlay Menu */}
       <div className={cn(
         "fixed inset-0 bg-primary text-primary-foreground z-40 transition-transform duration-700 flex flex-col justify-center items-center",
         isMenuOpen ? "translate-y-0" : "-translate-y-full"
       )}>
         <div className="flex flex-col space-y-8 items-center">
-          {['Home', 'Projects', 'Services', 'Studio', 'Contact'].map((item, i) => (
+          {['Home', 'Journal', 'Mood Tracker', 'Gratitude', 'Settings'].map((item, i) => (
             <Link 
               key={item} 
-              href={`#${item.toLowerCase()}`}
+              href={`#${item.toLowerCase().replace(' ', '-')}`}
               onClick={() => setIsMenuOpen(false)}
               className={cn(
                 "font-headline text-5xl md:text-7xl uppercase tracking-tighter hover:italic transition-all duration-300",
@@ -70,7 +70,7 @@ export default function Navigation() {
           ))}
         </div>
         <div className="absolute bottom-12 text-sm uppercase tracking-widest opacity-50">
-          Catalyst &copy; 2024
+          Aura &copy; 2024
         </div>
       </div>
     </nav>

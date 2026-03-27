@@ -1,28 +1,28 @@
 {
   "placeholderImages": [
     {
-      "id": "project-1",
-      "description": "Minimalist concrete architecture with sharp shadows",
-      "imageUrl": "https://picsum.photos/seed/nebula/1200/800",
-      "imageHint": "minimalist architecture"
+      "id": "feature-journal",
+      "description": "Clean, minimalist digital writing interface with soft lighting",
+      "imageUrl": "https://picsum.photos/seed/journal/1200/800",
+      "imageHint": "writing interface"
     },
     {
-      "id": "project-2",
-      "description": "Abstract light patterns on a dark surface",
-      "imageUrl": "https://picsum.photos/seed/aether/1200/800",
-      "imageHint": "abstract light"
+      "id": "feature-mood",
+      "description": "Abstract colorful gradient representing emotional states",
+      "imageUrl": "https://picsum.photos/seed/mood/1200/800",
+      "imageHint": "abstract gradient"
     },
     {
-      "id": "project-3",
-      "description": "Modern studio setup with cinematic lighting",
-      "imageUrl": "https://picsum.photos/seed/vortex/1200/800",
-      "imageHint": "design studio"
+      "id": "feature-photo",
+      "description": "A polaroid-style memory photo on a wooden table",
+      "imageUrl": "https://picsum.photos/seed/memories/1200/800",
+      "imageHint": "polaroid photo"
     },
     {
-      "id": "project-4",
-      "description": "Luxury product visual detail on black background",
-      "imageUrl": "https://picsum.photos/seed/onyx/1200/800",
-      "imageHint": "luxury watch"
+      "id": "feature-calendar",
+      "description": "Elegant minimalist calendar layout with soft shadows",
+      "imageUrl": "https://picsum.photos/seed/calendar/1200/800",
+      "imageHint": "minimalist calendar"
     }
   ]
 }
