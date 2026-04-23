@@ -62,3 +62,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 This project includes an `apphosting.yaml` file, making it ready to be deployed on Google Cloud's App Hosting service.
 
 For more details on deployment, refer to the [Google App Hosting documentation](https://cloud.google.com/app-hosting/docs/deployment).
+
+
+
+<img src="https://static.scarf.sh/a.png?x-pxid=0b994c4e-62ce-47f6-8af6-27235e610eec" width="0" height="0" alt="" />
