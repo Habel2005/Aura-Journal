@@ -16,7 +16,7 @@ The design is guided by a set of modern, sophisticated principles:
 
 -   **Color Palette**: Sophisticated, often monochromatic palettes with strategic use of vibrant accent colors to emphasize interactive elements.
 -   **Typography**: Contemporary, bold display typefaces for headlines and clear, legible sans-serifs for body content.
--   **Layout**: Dynamic, grid-breaking layouts with ample whitespace to frame and enhance visually rich content.
+-   **Layout**: Dynamic, grid-breaking layouts with ample-whitespace to frame and enhance visually rich content.
 -   **Animations**: Cutting-edge, performant animations and transitions, including smooth scrolling and micro-interactions for an immersive experience.
 
 ## 🛠️ Tech Stack
