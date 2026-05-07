@@ -1,6 +1,6 @@
 # Awwwards Catalyst
 
-A Next.js & Genkit starter template designed to build visually stunning, Awwwards-worthy websites. This project provides a solid foundation for creating immersive digital experiences with a focus on sophisticated design, fluid animations, and interactive elements.
+A Next.js starter template designed to build visually stunning, Awwwards-worthy websites. This project provides a solid foundation for creating immersive digital experiences with a focus on sophisticated design, fluid animations, and interactive elements.
 
 ## ✨ Core Features
 
